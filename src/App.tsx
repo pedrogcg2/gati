@@ -7,18 +7,18 @@ export const App  = () => {
 
 function initCatCards(){
     const cilon : string = "Mucilon";
-    const  cimgsrc : string  = "src/assets/cilon.jpeg";
-    const cgifsrc : string = "src/assets/cilongif.gif";
+    const cimgsrc : string  = "/static/cilon.jpeg";
+    const cgifsrc : string = "/static/cilongif.gif";
     const cdescription : string = "TESTE";
 
     const mings = "Mingau";
-    const mimgsrc = "src/assets/mings.jpg";
-    const mgifsrc = "src/assets/mingsgif.gif";
+    const mimgsrc = "/static/mings.jpg";
+    const mgifsrc = "/static/mingsgif.gif";
     const mdescription = "TESTE";
 
     const nests = "Neston";
-    const nimgsrc = "src/assets/nests.jpeg";
-    const ngifsrc = "src/assets/nestsgif.gif"
+    const nimgsrc = "/static/nests.jpeg";
+    const ngifsrc = "/static/nestsgif.gif"
     const ndescription = "TESTE"
 
     return(
