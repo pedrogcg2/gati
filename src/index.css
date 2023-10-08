@@ -1,0 +1,69 @@
+html {
+  font-size: 10px;
+  font-family: "Roboto-Black", roboto-black;
+  background-color: black;
+}
+
+body {
+  width: auto;
+  margin: 0 auto;
+  padding: 0 20px 20px 20px;
+}
+
+.container-gatinhas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10% 10%;
+}
+
+img {
+  margin: 0 auto;
+  display: block;
+  max-width: 600px;
+  max-height: 600px;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  color: white;
+  text-shadow:3px 3px 1px black;
+}
+
+h2 {
+  font-size: 35px;
+  text-align: left;
+  margin: 0;
+  padding: 20px 0;
+  color: white;
+}
+
+p, 
+li{
+  font-size: 15px;
+  letter-spacing: 1px;
+  color: white;
+}
+
+#catImg {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  border-color: black;
+}
+
+.active-card {
+  transform: scale(1.2);
+}
+
+.card {
+  margin: 50px 50px;
+  max-width: 500px;
+  align-items: center;
+  background-color: rgb(172, 252, 107);
+  border-color: red;
+  border-radius: 5%;
+}
